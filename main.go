@@ -25,5 +25,5 @@ var installment_amount int
 installment_amount = (loan_amount * interest_rate * yeasrs / 100 + loan_amount) / (yeasrs * 12)
 fmt.Printf("Installment amount is: %d\n", installment_amount)
 
-
+  
 }
